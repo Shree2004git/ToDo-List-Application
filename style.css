@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:whitesmoke;
+}
+.card{
+    width:90%;
+    max-width:470px;
+    background: linear-gradient(135deg, #8e8cf7, #5b548a);
+    color:#fff;
+    margin:100px auto 0;
+    border-radius: 20px;
+    padding:40px 35px;
+    text-align: center;
+}
+.head{
+    font-size: 30px;
+    font-weight:50px;
+    margin-bottom: 20px;
+}
+.search{
+    margin-top: 10px;
+    width:80%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.search input{
+    margin-left: 20px;
+    height: 35px;
+    width:230px;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size:18px;
+    flex: 1;
+}
+.search button{
+    border:0;
+    outline:0;
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+#doneList{
+    text-align: left;
+    font-weight:100;
+    margin-left: 20px;
+}
+
+#todoList{
+    text-align: left;
+    margin-left: 30px;
+    font-size:20px;
+    
+}
+
+#doneList{
+    text-align: left;
+    margin-left: 30px;
+    font-size:20px;
+    
+}
